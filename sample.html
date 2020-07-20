@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Harshal's Portfolio</title>
+</head>
+
+<body>
+  <div class="container-fluid d-none d-md-block">
+    <!--Side Nav Tabs for medium to extra large screen-->
+    <div class="row" id="SideRow">
+      <div class="col-3" id="SideTab">
+        <div class="nav flex-column nav-tabs border-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active border-right-0 rounded-0 sidenav" id="v-pills-home-tab" data-toggle="pill"
+            href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">About Me</a>
+          <a class="nav-link border-right-0 rounded-0 sidenav" id="v-pills-Projects-tab" data-toggle="pill"
+            href="#v-pills-Projects" role="tab" aria-controls="v-pills-Projects" aria-selected="false">Projects</a>
+          <a class="nav-link border-right-0 rounded-0 sidenav" id="v-pills-certification-tab" data-toggle="pill"
+            href="#v-pills-certification" role="tab" aria-controls="v-pills-certification"
+            aria-selected="false">Certifications</a>
+          <a class="nav-link border-right-0 rounded-0 sidenav" id="v-pills-skills-tab" data-toggle="pill"
+            href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</a>
+  
+          <a class="nav-link border-right-0 rounded-0 sidenav" id="v-pills-Contact-tab" data-toggle="pill"
+            href="#v-pills-Contact" role="tab" aria-controls="v-pills-Contact" aria-selected="false">Contact</a>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="jumbotron" id="HomeJumbo">
+              <h1 style="font-size: 50px;font-family: 'Sofia';color:white;">Hi I'm Harshal Unhale</h1>
+
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="card col-md-5 shadow p-3 mb-5 border-0" id="AboutMe" data-aos="fade-in " data-aos-delay="70">
+                <div class="card-body">
+                  <h3 style="font-family: 'Sofia';">About Me</h3>
+                  <p>
+                    Hello, I am Harshal Unhale currently studying in 4th year of Computer Engineering. I am Python and
+                    Data Science enthusiast. I am hardworking person and always active to learn new things.
+                    I want To work in an organization where a culture of freedom and
+                    working for initiatives is ensured, I want to give my contribution
+                    through thoughts and action to the company’s vision and thus
+                    achieve self-development by playing a significant role in
+                    building the organization.
+                  </p>
+                </div>
+              </div>
+
+              <img src="./Profile.jpeg" id="ProfilePhoto" class="col-md-5" data-aos="fade-in" data-aos-delay="70">
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-Projects" role="tabpanel" aria-labelledby="v-pills-Projects-tab">
+            <div class="jumbotron" id="ProJumbo">
+              <h1 style="font-size: 50px;font-family: 'Sofia';color:rgb(0, 0, 0);">My Work</h1>
+            </div>
+            <div class="container">
+              <div class="card text-center" id="Project1" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Placement Guidance</h3>
+                    <p>In this project, I used the kivy Library of python for application
+                      development. The project based on the concept, to give not only
+                      guidance but also a platform to students regarding their placements.</p>
+                </div>
+              </div>
+              <div class="card text-center" id="Project2" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Pooling and rental card service for farmers</h3>
+                    <p>
+                      We, a group of 6 members are making a mobile application for farmers
+                      such that it could make the Agri-logistic Transportation ecosystem easier
+                      and affordable for minimizing farmer's cost and efforts.</p>
+                </div>
+              </div>
+              <div class="card text-center" id="Project3" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Crop Prediction using Data Science</h3>
+                    <p>In this my final year project, I will be used to create an application that
+                      predicts a suitable crop for the current year using machine learning and
+                      data mining methods based on soil and weather parameters.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-certification" role="tabpanel"
+            aria-labelledby="v-pills-certification-tab">
+            <div class="row">
+
+              <div class="container col-md-10">
+                <h1 style="color: navy; margin-top: 50px;">Certifications</h1>
+                <div class="card-columns">
+                  <div class="card">
+                    <img src="./1.PNG" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card">
+                    <img src="./2.PNG" style="width: 100%; height: 100%;" />
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
+            <div class="row">
+
+              <div class="container col-md-10">
+                <h1 style="color: navy; margin-top: 50px;">Skills</h1>
+                <div class="card-columns">
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/2.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/3.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/4.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/5.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/8.png" style="width: 100%; height: 100%;" />
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-Contact" role="tabpanel" aria-labelledby="v-pills-Contact-tab">
+            <div class="row container" style="align-items: center;">
+              <div class="container" style="padding: 75px;">
+                  <h3 style="color:navy;">My location</h3>
+                  <h6 style="color:navy;">Contact No. +91 9284131690 Gmail: harshalunhale4369@gmail.com</h6>
+                  <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.49935688407!2d73.72210323058746!3d18.64084484794046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8377fbdeab3%3A0x2c4265dab1a7a0f8!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1593946746839!5m2!1sen!2sin"
+                          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+              </div>
+              <div class="col-md-3 container" style="align-items: center;">
+                  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/sayali-kanase-ab417919a/"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social-icon" href="mailto:sayalikanase1910@gmail.com"><i class="fa fa-envelope-o"></i></a>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Top Navbar for extrasmall to small screen-->
+  <div class="row d-xs-block d-md-none">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background: rgba(132, 213, 245, 0.829);">
+      <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+
+          <a class="navbar-brand ml-auto" href="./index.html" style="font-size: large; color: navy;">Harshal Unhale</a>
+
+          <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav mr-auto">
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="./sample.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#AboutMe">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+
+            
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Certifications">Certifications</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Skills">Skills</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#ContactMe">Contact</a>
+                  </li>
+
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="row justify-content-center">
+              <div class="card col-md-5 shadow p-3 mb-5 border-0" id="AboutMe" data-aos="fade-in " data-aos-delay="70">
+                <div class="card-body">
+                  <h3 style="font-family: 'Sofia';">About Me</h3>
+                  <p>
+                    Hello, I am Harshal Unhale currently studying in 4th year of Computer Engineering. I am Python and
+                    Data Science enthusiast. I am hardworking person and always active to learn new things.
+                    I want To work in an organization where a culture of freedom and
+                    working for initiatives is ensured, I want to give my contribution
+                    through thoughts and action to the company’s vision and thus
+                    achieve self-development by playing a significant role in
+                    building the organization.
+                  </p>
+                </div>
+              </div>
+
+              <img src="./Profile.jpeg" id="ProfilePhoto" class="col-md-5" data-aos="fade-in" data-aos-delay="70">
+
+            </div>
+            <div class="container" id="Projects">
+              <div class="card text-center" id="Project1" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Placement Guidance</h3>
+                    <p>In this project, I used the kivy Library of python for application
+                      development. The project based on the concept, to give not only
+                      guidance but also a platform to students regarding their placements.</p>
+                </div>
+              </div>
+              <div class="card text-center" id="Project2" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Pooling and rental card service for farmers</h3>
+                    <p>
+                      We, a group of 6 members are making a mobile application for farmers
+                      such that it could make the Agri-logistic Transportation ecosystem easier
+                      and affordable for minimizing farmer's cost and efforts.</p>
+                </div>
+              </div>
+              <div class="card text-center" id="Project3" data-aos="zoom-in " data-aos-delay="100">
+                <div class="card-body" style="margin: 0px; padding: 0px;">
+                  <h4 style="font-family: 'Sofia';color:rgb(0, 0, 0);">Crop Prediction using Data Science</h3>
+                    <p>In this my final year project, I will be used to create an application that
+                      predicts a suitable crop for the current year using machine learning and
+                      data mining methods based on soil and weather parameters.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="Certifications">
+
+              <div class="container col-md-10">
+                <h1 style="color: navy; margin-top: 50px;">Certifications</h1>
+                <div class="card-columns">
+                  <div class="card">
+                    <img src="./1.PNG" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card">
+                    <img src="./2.PNG" style="width: 100%; height: 100%;" />
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="row" id="Skills">
+
+              <div class="container col-md-10">
+                <h1 style="color: navy; margin-top: 50px;">Skills</h1>
+                <div class="card-columns">
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/2.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/3.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/4.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/5.png" style="width: 100%; height: 100%;" />
+                  </div>
+                  <div class="card border-0" style="height: 150px; width: 150px;">
+                    <img src="./icon/8.png" style="width: 100%; height: 100%;" />
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="row container" style="align-items: center;" id="ContactMe">
+              <div class="container" style="padding: 75px;">
+                  <h3 style="color:navy;">My location</h3>
+                  <h6 style="color:navy;">Contact No. +91 9284131690 Gmail: harshalunhale4369@gmail.com</h6>
+                  <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.49935688407!2d73.72210323058746!3d18.64084484794046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8377fbdeab3%3A0x2c4265dab1a7a0f8!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1593946746839!5m2!1sen!2sin"
+                          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+              </div>
+              <div class="col-md-3 container" style="align-items: center;">
+                  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/sayali-kanase-ab417919a/"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social-icon" href="mailto:sayalikanase1910@gmail.com"><i class="fa fa-envelope-o"></i></a>
+              </div>
+          </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
